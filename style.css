@@ -50,6 +50,17 @@ p {
   background-color: #ffffff;
   border-radius: 20px;
   padding: 16px;
+  box-shadow: 0 7px 30px rgba(0, 0, 0, 0.1);
+}
+
+.text-container {
+  width: 288px;
+  height: 131px;
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  text-align: center;
 }
 
 img {
