@@ -33,34 +33,26 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- Custom fonts
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
+I am reinforcing my ability to add custom fonts. I understand that there are several ways to do this and I'm planning to do some further studies on understanding the most performant solutions. In this project I used the @font-face rule which allowed me to use custom fonts on the site. I added the fonts I needed into the fonts folder and used the @font-face rule as follows:
 
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+@font-face {
+  font-family: "Outfit";
+  src: url("./fonts/Outfit-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
-```
 
-```js
-const proudOfThisFunc = () => {
-  console.log("🎉");
-};
+@font-face {
+  font-family: "Outfit";
+  src: url("./fonts/Outfit-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
 ```
 
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
